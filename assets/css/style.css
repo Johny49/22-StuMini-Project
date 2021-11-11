@@ -6,7 +6,14 @@ footer,
 nav,
 .navlink {
     background-color: darkblue;
-    padding: 20px;
+    padding: 16px;
+}
+
+.navlink:hover {
+    border: 2px white solid;
+    border-radius: 3px;
+    background-color: rgb(189, 208, 251);
+    color: black;
 }
 
 body {
@@ -29,7 +36,7 @@ figure {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px 0 40px 0;
+    padding: 8px 0;
 }
 #contact-image {
     width: 400px;
@@ -39,15 +46,18 @@ figure {
 form {
     margin: 40px auto;
     width: 30%;
-    padding: 8px 0 16px 0;
     text-align: center;
     border: 2px solid darkgray;
     border-radius: 4px;
 }
 
+form div {
+    padding: 8px;
+}
+
 #submit-button{
     border-radius: 2px;
-    padding: 4px;
+    padding: 2px;
     margin-top: 8px;
     background-color: darkblue;
     color: lightgray;
