@@ -1,0 +1,62 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer, 
+nav,
+.navlink {
+    background-color: darkblue;
+    padding: 20px;
+}
+
+body {
+    background-color: lightgray;
+}
+
+nav {
+    text-align: right;
+}
+
+.navlink {
+    color: lightgray;
+}
+
+h1 {
+    text-align: center;
+}
+
+figure {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0 40px 0;
+}
+#contact-image {
+    width: 400px;
+    padding: 4px;
+}
+
+form {
+    margin: 40px auto;
+    width: 30%;
+    padding: 8px 0 16px 0;
+    text-align: center;
+    border: 2px solid darkgray;
+    border-radius: 4px;
+}
+
+#submit-button{
+    border-radius: 2px;
+    padding: 4px;
+    margin-top: 8px;
+    background-color: darkblue;
+    color: lightgray;
+}
+
+footer {
+    color: lightgray;
+}
+
+footer a:visited {
+    color: yellow;
+}
